@@ -42,9 +42,11 @@ footer{border-top:1px solid var(--line);padding:40px 0;color:var(--grey);font-si
 .collage .tall{grid-row:span 2}
 .collage .wide{grid-column:span 2}
 @media(max-width:760px){.collage{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px;gap:6px;padding:0 16px}.collage .big{grid-column:span 2;grid-row:span 2}.collage .wide{grid-column:span 2;grid-row:span 1}}
-.logos{overflow:hidden;border-top:1px solid var(--line);padding:34px 0}
-.logos .ltrack{display:flex;gap:64px;width:max-content;animation:scroll 38s linear infinite;align-items:center}
-.logos span{font-weight:800;letter-spacing:.04em;font-size:18px;color:var(--ink);white-space:nowrap;opacity:.85}
+.logos{border-top:1px solid var(--line);padding:38px 0;background:#fff}
+.logos .lrow{display:flex;gap:54px;align-items:center;justify-content:center;flex-wrap:wrap;padding:0 32px}
+.logos img{max-height:30px;max-width:118px;width:auto;height:auto;object-fit:contain;filter:grayscale(1);opacity:.55;transition:filter .4s,opacity .4s}
+.logos img:hover{filter:grayscale(0);opacity:1}
+@media(max-width:640px){.logos .lrow{gap:34px}.logos img{max-height:24px;max-width:92px}}
 .portrait{display:flex;gap:32px;align-items:center;flex-wrap:wrap;border-top:1px solid var(--line);padding:48px 0}.portrait img{width:280px;height:340px;object-fit:cover;border-radius:2px}.portrait p{flex:1;min-width:240px;font-size:18px;color:var(--ink);max-width:520px}.portrait .mut{color:var(--grey)}</style></head>
 <body>
 <div class="bar"></div>
@@ -56,6 +58,15 @@ footer{border-top:1px solid var(--line);padding:40px 0;color:var(--grey);font-si
   </header>
 
 <section class="portrait"><img src="img/cv_photo.png" alt="James Huertas — digital technician, Barcelona"><p>That's me — <span class="mut">James Huertas.</span> I run the full on-set technical chain — tethered capture, colour management, data &amp; client review — so the photographer, director and agency can focus on the shot. Calm under pressure, fast, discreet.</p></section>
+
+  <section class="logos"><div class="eyebrow" style="text-align:center">Trusted on set by</div><div class="lrow">
+    <img src="img/logos/offwhite.svg" alt="Off-White">
+    <img src="img/logos/cupra.svg" alt="CUPRA">
+    <img src="img/logos/inditex.svg" alt="Inditex">
+    <img src="img/logos/sfera.png" alt="Sfera">
+    <img src="img/logos/frette.png" alt="Frette">
+    <img src="img/logos/matthew-williamson.png" alt="Matthew Williamson">
+  </div></section>
 
   <section>
     <div class="eyebrow">What I do</div>
