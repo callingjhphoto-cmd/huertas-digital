@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Huertas Digital — Digital Tech & Lighting Assist, Barcelona</title>
+<style>
+:root{--ink:#0A0A0A;--paper:#FFFFFF;--grey:#6B6B6B;--line:#E6E6E6;--pop:#1F4DFF;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,"Helvetica Neue",Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.5;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:0 32px}
+.bar{height:5px;width:72px;background:var(--pop)}
+header{padding:80px 0 48px}
+.mark{font-weight:900;font-size:13px;letter-spacing:.18em;text-transform:uppercase}
+.mark b{color:var(--pop)}
+h1{font-weight:800;font-size:clamp(40px,7vw,82px);line-height:1.03;letter-spacing:-.02em;margin:28px 0 20px;color:var(--ink)}
+h1 .pop{color:var(--pop)}  /* only the period — the dash of colour */
+.lede{font-size:clamp(18px,2.4vw,24px);color:var(--ink);max-width:680px}
+.lede .mut{color:var(--grey)}
+section{padding:54px 0;border-top:1px solid var(--line)}
+.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--pop);font-weight:700;margin-bottom:22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:28px}
+.svc h3{font-size:19px;margin-bottom:8px}
+.svc p{color:var(--grey);font-size:15px}
+.credits{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2px 32px;font-size:16px}
+.credits div{padding:11px 0;border-bottom:1px solid var(--line)}
+.credits b{font-weight:700} .credits span{color:var(--grey)}
+.kit{columns:2;column-gap:40px;color:var(--grey);font-size:15px;max-width:760px}
+.kit li{margin-bottom:9px}
+.cta{display:flex;align-items:center;gap:24px;flex-wrap:wrap;padding:60px 0}
+.cta a{display:inline-block;background:var(--ink);color:#fff;text-decoration:none;padding:16px 30px;font-weight:700;font-size:15px}
+.cta a.alt{background:var(--pop)}
+footer{border-top:1px solid var(--line);padding:40px 0;color:var(--grey);font-size:14px}
+.quote{font-size:13px;color:var(--grey);margin-top:10px;font-style:italic}
+@media(max-width:640px){.kit{columns:1}}
+
+.gallery{background:#0A0A0A;border-top:1px solid var(--line);padding:48px 0}
+.gallery .eyebrow{color:#fff;opacity:.6}
+.collage{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:170px;grid-auto-flow:dense;gap:8px;padding:0 32px}
+.collage figure{margin:0;overflow:hidden;position:relative;background:#161616}
+.collage img{width:100%;height:100%;object-fit:cover;display:block;filter:grayscale(8%) contrast(1.02);transition:transform .9s cubic-bezier(.2,.8,.2,1),filter .6s}
+.collage figure:hover img{transform:scale(1.06);filter:grayscale(0) contrast(1.05)}
+.collage .big{grid-column:span 2;grid-row:span 2}
+.collage .tall{grid-row:span 2}
+.collage .wide{grid-column:span 2}
+@media(max-width:760px){.collage{grid-template-columns:repeat(2,1fr);grid-auto-rows:150px;gap:6px;padding:0 16px}.collage .big{grid-column:span 2;grid-row:span 2}.collage .wide{grid-column:span 2;grid-row:span 1}}
+.logos{overflow:hidden;border-top:1px solid var(--line);padding:34px 0}
+.logos .ltrack{display:flex;gap:64px;width:max-content;animation:scroll 38s linear infinite;align-items:center}
+.logos span{font-weight:800;letter-spacing:.04em;font-size:18px;color:var(--ink);white-space:nowrap;opacity:.85}
+.portrait{display:flex;gap:32px;align-items:center;flex-wrap:wrap;border-top:1px solid var(--line);padding:48px 0}.portrait img{width:280px;height:340px;object-fit:cover;border-radius:2px}.portrait p{flex:1;min-width:240px;font-size:18px;color:var(--ink);max-width:520px}.portrait .mut{color:var(--grey)}</style></head>
+<body>
+<div class="bar"></div>
+<div class="wrap">
+  <header>
+    <div class="mark">Huertas <b>Digital</b></div>
+    <h1>Digital tech &amp;<br>lighting assist.<span class="pop">.</span></h1>
+    <p class="lede">High-end stills &amp; motion sets in Barcelona and across Europe. A calibrated, colour-managed Capture One station, run clean and fast — <span class="mut">so the shoot never waits on the tech.</span></p>
+  </header>
+
+<section class="portrait"><img src="img/cv_photo.png" alt="James Huertas — digital technician, Barcelona"><p>That's me — <span class="mut">James Huertas.</span> I run the full on-set technical chain — tethered capture, colour management, data &amp; client review — so the photographer, director and agency can focus on the shot. Calm under pressure, fast, discreet.</p></section>
+
+  <section>
+    <div class="eyebrow">What I do</div>
+    <div class="grid">
+      <div class="svc"><h3>Digital tech</h3><p>Capture One tethering, live colour management, on-set grading, file integrity &amp; backup. Your images safe and looking right, in real time.</p></div>
+      <div class="svc"><h3>Lighting assist</h3><p>Second pair of trusted hands on lighting — fast, anticipatory, fluent with Profoto &amp; the gaffer's plan.</p></div>
+      <div class="svc"><h3>Own kit</h3><p>MacBook Pro M-series station, monitors, Hollyland, Tether Tools, hardened SSD workflow. Full equipment list on request.</p></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="eyebrow">Selected recent work</div>
+    <div class="credits">
+      <div><b>Off-White</b> <span>· 247 (ph. William Arcand)</span></div>
+      <div><b>Matthew Williamson × Frette</b> <span>· Isla Blonde</span></div>
+      <div><b>CUPRA</b> <span>· Las Montañas del Canadá</span></div>
+      <div><b>Sfera — Inditex</b> <span>· Canadá</span></div>
+      <div><b>Players Magazine</b> <span>· Dreamteam Europe</span></div>
+      <div><b>Anton Renborg</b> <span>· OAS</span></div>
+    </div>
+    <p class="quote">★★★★★ “Best Digi Ever” — overheard on set, once.</p>
+  </section>
+
+  <section>
+    <div class="eyebrow">The station</div>
+    <ul class="kit">
+      <li>Apple MacBook Pro (M-series) + Capture One</li>
+      <li>Colour-calibrated client monitor</li>
+      <li>Tether Tools pro tethering kit</li>
+      <li>Hollyland wireless monitoring</li>
+      <li>Redundant SSD backup workflow</li>
+      <li>Profoto-fluent lighting support</li>
+    </ul>
+  </section>
+
+  <section class="gallery"><div class="eyebrow" style="padding:0 32px 18px">On set</div><div class="collage">
+    <figure class="big"><img src="img/ce6a3e12-6961-4424-86f4-cfc75f6c4f9d_1_105_c-1.jpeg" alt="On set — James Huertas digital tech, Barcelona"></figure>
+    <figure class="tall"><img src="img/1768dc9a-4cc8-4aad-96a2-bc3a52f6119a_1_105_c-1.jpeg" alt="On set — James Huertas digital tech"></figure>
+    <figure><img src="img/0fd645a9-7667-446e-9dad-4e85de6c46b8_1_105_c-1.jpeg" alt="On set — James Huertas digital tech"></figure>
+    <figure class="wide"><img src="img/3109917e-9156-4b27-b50a-f17c8a88a831_1_105_c-1.jpeg" alt="On set — James Huertas digital tech"></figure>
+    <figure class="tall"><img src="img/a6ea8162-2a86-4105-8f38-d49fb1ebfef1_1_105_c-1.jpeg" alt="On set — James Huertas digital tech"></figure>
+    <figure class="big"><img src="img/d68b7-1.jpg" alt="On set — James Huertas digital tech"></figure>
+    <figure class="wide"><img src="img/83ebd615-973b-4f38-be7d-3a9da7dda2d9_1_105_c-1.jpeg" alt="On set — James Huertas digital tech"></figure>
+    <figure class="tall"><img src="img/45b9160e-e5df-4eea-945c-9406dc537b88_1_105_c-1.jpeg" alt="On set — James Huertas digital tech"></figure>
+    <figure><img src="img/85ef5583-47a1-486f-9fba-f52df661d252_1_105_c-1.jpeg" alt="On set — James Huertas digital tech"></figure>
+    <figure class="wide"><img src="img/848a8183-bc92-4362-b793-bc3b65b881f3_1_105_c-1.jpeg" alt="On set — James Huertas digital tech"></figure>
+    <figure class="tall"><img src="img/76fc2cdd-fe51-4856-a115-ca4347fa6220.jpg" alt="On set — James Huertas digital tech"></figure>
+    <figure class="wide"><img src="img/b47897cb-024a-4b38-8c76-e5b627f59089_1_105_c-1.jpeg" alt="On set — James Huertas digital tech"></figure>
+    <figure class="tall"><img src="img/1ba8739a-36b7-457e-8d68-c1d452f42960_1_105_c-1.jpeg" alt="On set — James Huertas digital tech"></figure>
+    <figure><img src="img/eaa8e4cb-1d34-4740-ac2b-ff5e22a8e610_1_105_c-1.jpeg" alt="On set — James Huertas digital tech"></figure>
+  </div></section>
+<div class="cta">
+    <a class="alt" href="mailto:callingjhphoto@gmail.com?subject=Booking%20enquiry%20%E2%80%94%20digital%20tech%20%2F%20lighting">Book me for a shoot</a>
+    <a href="mailto:callingjhphoto@gmail.com?subject=CV%20%26%20kit%20list%20request">CV &amp; full kit list</a>
+  </div>
+</div>
+<footer><div class="wrap"><b>HUERTAS DIGITAL</b> — Barcelona · jameshphoto.com · callingjhphoto@gmail.com</div></footer>
+</body></html>
